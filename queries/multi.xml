@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job>
+	<task>
+		<fileout>result1.csv</fileout>
+		<titleline>table_name</titleline>
+		<query>select table_name from all_tables where table_name = 'DUAL'</query>
+	</task>
+	<task>
+		<fileout>result2.csv</fileout>
+		<titleline>table_name</titleline>
+		<query>select table_name from all_tables where table_name = 'INCFIL'</query>
+	</task>
+</job>

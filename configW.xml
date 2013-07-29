@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<input>C:\\Users\\rx710r\\workspace\\QueryDataExtractor\\queries\\test.xml</input>
+	<output>C:\\Users\\rx710r\\workspace\\QueryDataExtractor\\output\\</output>
+	<schema>C:\\Users\\rx710r\\workspace\\QueryDataExtractor\\schema\\</schema>
+</configuration>
+

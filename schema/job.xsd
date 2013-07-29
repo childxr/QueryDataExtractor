@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="job">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="task" minOccurs="1" maxOccurs="20">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="fileout" type="xs:string"></xs:element>
+						<xs:element name="titleline" type="xs:string"></xs:element>
+						<xs:element name="query" type="xs:string"></xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

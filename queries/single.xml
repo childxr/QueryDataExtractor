@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job>
+	<task>
+		<fileout>single.csv</fileout>
+		<titleline>OWNER, TABLE_NAME</titleline>
+		<query>SELECT OWNER, TABLE_NAME FROM ALL_TAB_COLUMNS WHERE TABLE_NAME like 'DU%'</query>
+	</task>
+</job>
